@@ -18,4 +18,7 @@ Goの環境構築
 - gocode: Goのコード補完ソフトウェア
 - pp: pp.Print()を使うと任意の型のオブジェクトを色付きでpretty print(整形表示)してくれる
 - goimports: コードフォーマット、パッケージを読み込むimport文の挿入と削除を自動で行なってくれるライブラリ
+- golint: Goらしくないコーディングスタイルに対して警告してくれる静的解析ツール(現在は[こちら](https://zenn.dev/sanpo_shiho/articles/09d1da9af91998)の理由により非推奨)
+  - cf. govet: 標準でGoに同梱されている静的解析ツール
+- godoc: ブラウザでのドキュメント閲覧を可能にするツール
 
